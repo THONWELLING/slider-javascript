@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: beige;
+}
+.header {
+  height: 60px;
+  background-color: red;
+}
+.slider {
+  flex: 1;
+  overflow: hidden;
+}
+.sliderArea {
+  width: calc(200px * 28);
+  height: 100%;
+  display: flex;
+  transition: all ease 0.3s;
+}
+.sliderItem {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  margin-left: 10px;
+  background-position: center;
+  background-size: cover;
+}
